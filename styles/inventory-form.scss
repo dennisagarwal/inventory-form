@@ -4,7 +4,7 @@
   background-color: burlywood;
   margin: 1rem;
   padding: 1rem;
-  &__heading{
+  &__heading {
     font-size: 2.6rem;
     margin: 1rem;
     font-weight: normal;
@@ -20,24 +20,14 @@
     margin: 0.4rem 1rem;
     font-size: 1.5rem;
     width: 90%;
-    &--radio{
+    &--radio {
       font-size: 1.5rem;
-      width:5%;
-      margin-top: .5rem;
-      margin-bottom: .5rem;
-    }
-    &--div{
-      margin-top: 1rem;
-      margin-bottom: 1rem;
-      font-size: 1.3rem;
-    }
-    &--textarea{
-      margin: 1rem;
-      width: 90%;
-      height:8rem
+      width: 5%;
+      margin-top: 0.5rem;
+      margin-bottom: 0.5rem;
     }
   }
-  &__div{
+  &__div {
     display: flex;
     flex-direction: column;
   }
@@ -45,7 +35,7 @@
     width: 90%;
     padding: 0.5rem;
     margin-top: 1rem;
-    margin-left:1rem;
+    margin-left: 1rem;
     border-radius: 0.2rem;
     font-weight: 600;
     font-size: 1rem;
