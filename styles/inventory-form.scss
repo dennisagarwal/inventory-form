@@ -17,7 +17,7 @@
     margin: 1rem;
   }
   &__input {
-    margin: 1rem;
+    margin: 0.4rem 1rem;
     font-size: 1.5rem;
     width: 90%;
     &--radio{
@@ -32,9 +32,14 @@
       font-size: 1.3rem;
     }
   }
+  &__div{
+    display: flex;
+    flex-direction: column;
+  }
   &__button {
     width: 90%;
     padding: 0.5rem;
+    margin-top: 1rem;
     margin-left:1rem;
     border-radius: 0.2rem;
     font-weight: 600;
