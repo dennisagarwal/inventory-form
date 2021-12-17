@@ -352,7 +352,6 @@ template {
 }
 
 .form__label {
-  width: 40%;
   font-size: 1.5rem;
   margin: 1rem;
 }
@@ -360,12 +359,15 @@ template {
   margin: 0.4rem 1rem;
   font-size: 1.5rem;
   width: 100%;
+  display: flex;
+  flex-direction: column;
 }
 .form__input--radio {
   font-size: 1.5rem;
   width: 5%;
   margin-top: 0.5rem;
   margin-bottom: 0.5rem;
+  cursor: pointer;
 }
 .form__div {
   width: 95%;
@@ -373,11 +375,12 @@ template {
   flex-direction: column;
 }
 .form__button {
-  width: 90%;
+  width: 95%;
   padding: 0.5rem;
   margin-top: 1rem;
   margin-left: 1rem;
   border-radius: 0.2rem;
   font-weight: 600;
   font-size: 1rem;
+  cursor: pointer;
 }/*# sourceMappingURL=inventory-form.css.map */
