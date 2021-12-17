@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Inventory Count</title>
+  <script
+  src="https://code.jquery.com/jquery-3.4.1.js"
+  integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+  crossorigin="anonymous"></script>
+<!-- <script>
+function SubForm (){
+$.ajax({
+  url:'https://api.apispreadsheets.com/data/1551/',
+  type:'post',
+  data:$("#myForm").serializeArray(),
+  success: function(){
+    alert("Form Data Submitted :)")
+  },
+  error: function(){
+    alert("There was an error :(")
+  }
+});
+}
+</script> -->
+</head>
+<body>
+  <h2>Inventory Count</h2>
+  <form id="inventoryForm">
+    <label>Operator Name</label>
+    <br/>
+    <input name="operator_name" />
+    <br/>
+    <label>Date</label>
+    <br/>
+    <input type="date" name="date" placeholder="date"/>
+
+    <br/>
+    <label>Part Number</label>
+    <br/>
+    <input name="part_number" />
+    <br/>
+    <label>Quantity</label>
+    <br/>
+    <input name="quantity" />
+    <br/>
+    <label>Rack Number</label>
+    <br/>
+    <input name="rack_number" />
+    <br/>
+    <label>Location</label>
+    <br/>
+    <input name="location" />
+    <br/>
+    <label>Shift</label>
+    <br/>
+    <input type="radio" id="shift" name="shift" value="morning" /> Morning<br/>
+    <input type="radio" id="shift" name="shift" value="evening" /> Evening<br/>
+    <input type="radio" id="shift" name="shift" value=night" /> Night<br/>
+    <br/>
+    <label>Message (optional)</label>
+    <br/>
+    <textarea name="message">
+    </textarea>
+    <br/>
+    <br/>
+  </form>
+  <button onclick="SubForm()">Submit</button>
+  <script src="./scripts/inventory-form.js"></script>
+</body>
+</html>
