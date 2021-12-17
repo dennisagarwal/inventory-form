@@ -1,0 +1,41 @@
+.inventory {
+  display: flex;
+  flex-direction: column;
+  background-color: burlywood;
+  margin: 1rem;
+  padding: 1rem;
+}
+.inventory__heading {
+  font-size: 2.6rem;
+  margin: 1rem;
+  font-weight: normal;
+}
+
+.form__label {
+  font-size: 1.5rem;
+  margin: 1rem;
+}
+.form__input {
+  margin: 1rem;
+  font-size: 1.5rem;
+  width: 90%;
+}
+.form__input--radio {
+  font-size: 1.5rem;
+  width: 5%;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+.form__input--div {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  font-size: 1.3rem;
+}
+.form__button {
+  width: 90%;
+  padding: 0.5rem;
+  margin-left: 1rem;
+  border-radius: 0.2rem;
+  font-weight: 600;
+  font-size: 1rem;
+}/*# sourceMappingURL=inventory-form.css.map */

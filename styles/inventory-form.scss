@@ -1,0 +1,43 @@
+.inventory {
+  display: flex;
+  flex-direction: column;
+  background-color: burlywood;
+  margin: 1rem;
+  padding: 1rem;
+  &__heading{
+    font-size: 2.6rem;
+    margin: 1rem;
+    font-weight: normal;
+  }
+}
+
+.form {
+  &__label {
+    font-size: 1.5rem;
+    margin: 1rem;
+  }
+  &__input {
+    margin: 1rem;
+    font-size: 1.5rem;
+    width: 90%;
+    &--radio{
+      font-size: 1.5rem;
+      width:5%;
+      margin-top: .5rem;
+      margin-bottom: .5rem;
+    }
+    &--div{
+      margin-top: 1rem;
+      margin-bottom: 1rem;
+      font-size: 1.3rem;
+    }
+  }
+  &__button {
+    width: 90%;
+    padding: 0.5rem;
+    margin-left:1rem;
+    border-radius: 0.2rem;
+    font-weight: 600;
+    font-size: 1rem;
+  }
+}
