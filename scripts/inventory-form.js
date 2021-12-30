@@ -2,7 +2,7 @@ console.log("hello")
 
 function SubForm (){
   $.ajax({
-    url:'https://api.apispreadsheets.com/data/Buvk4PaGh1x69ysd/',
+    url:'https://api.apispreadsheets.com/data/X95QsJHtGECKT3DO/',
     //type post to post the data
     type:'post',
     //serialization array converts to object
