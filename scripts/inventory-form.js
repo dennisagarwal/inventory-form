@@ -12,7 +12,8 @@ function SubForm (){
     //success id called if the function call is successful otherwise error
     success: function(){
       alert("Form Data Submitted :)")
-      console.log($("#inventoryForm").serializeArray())
+      window.location.reload();
+      // console.log($("#inventoryForm").serializeArray())
     },
     error: function(){
       alert("There was an error :(")
